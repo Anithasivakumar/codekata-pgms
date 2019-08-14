@@ -1,3 +1,9 @@
 k=int(input())
-k=k-1
-print(k)
+if(k%2==0):
+    print(k)
+else:
+    k=k-1
+    print(k)
+
+
+
